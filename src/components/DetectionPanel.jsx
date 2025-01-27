@@ -2,7 +2,7 @@ import React from 'react';
 
 const DetectionPanel = ({ detections, dominantColor }) => {
   return (
-    <div className="detection-panel">
+    <div className="detection-panel" style={{color: black}}>
       <h3>Detected Objects:</h3>
       <ul>
         {detections.map((obj, index) => (
